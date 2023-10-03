@@ -3,7 +3,7 @@
     <title>Blog do Áleson</title>
     <link href="https://alesonmedeiros.github.io/feed.xml" rel="self" />
     <link href="https://alesonmedeiros.github.io" />
-    <updated>2023-10-03T01:31:46-03:00</updated>
+    <updated>2023-10-03T01:45:48-03:00</updated>
     <author>
         <name>Áleson Medeiros</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://alesonmedeiros.github.io/ola-mundo/"/>
         <id>https://alesonmedeiros.github.io/ola-mundo/</id>
 
-        <updated>2023-10-03T01:31:46-03:00</updated>
+        <updated>2023-10-03T01:45:48-03:00</updated>
             <summary>
                 <![CDATA[
                     Espero que esse seja o primeiro de muitos posts desse blog, embora não seja a primeira vez que começo um projeto do tipo e simplesmente acabo parando no meio do caminho por falta de tempo, interesse ou qualquer outra razão. Apenas a título de curiosidade&hellip;
@@ -48,6 +48,10 @@
 
   <p>
     Enfim, no momento é só, mas espero estar de volta com novos posts logo que possível.
+  </p>
+
+  <p>
+    
   </p>
             ]]>
         </content>
