@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Blog do Áleson",
+    "description": "",
+    "home_page_url": "https://alesonmedeiros.github.io",
+    "feed_url": "https://alesonmedeiros.github.io/feed.json",
+    "user_comment": "",
+    "icon": "https://alesonmedeiros.github.io/media/website/Logo.png",
+    "author": {
+        "name": "Áleson Medeiros"
+    },
+    "items": [
+        {
+            "id": "https://alesonmedeiros.github.io/ola-mundo/",
+            "url": "https://alesonmedeiros.github.io/ola-mundo/",
+            "title": "Olá, Mundo! Estamos de volta(de novo)",
+            "summary": "Espero que esse seja o primeiro de muitos posts desse blog, embora não seja a primeira vez que começo um projeto do tipo e simplesmente acabo parando no meio do caminho por falta de tempo, interesse ou qualquer outra razão. Apenas a título de curiosidade&hellip;",
+            "content_html": "\n  <p>\n    Espero que esse seja o primeiro de muitos posts desse blog, embora não seja a primeira vez que começo um projeto do tipo e simplesmente acabo parando no meio do caminho por falta de tempo, interesse ou qualquer outra razão. Apenas a título de curiosidade só esse repositório do Github já foi excluído e criado algumas vezes, então dessa vez vai!&nbsp;😂\n  </p>\n\n  <p>\n    O intuito da criação desse site/blog é para que possa registrar os resultados/lembretes de coisas que ando testando e pesquisando pela internet afora, porque no momento quando preciso de algo, tenho que ficar revisitando meus favoritos, mensagens salvas no WhatsApp/Telegram ou ainda ficar olhando meu histórico de pesquisas no Google.\n  </p>\n\n  <p>\n    Caso você tenha caído aqui de pára-quedas, não espere coisas muito técnicas ou explicadas nos mínimos detalhes, afinal eu sou apenas um entusiasta <s>fuçador</s> de tecnologia e nas minhas andanças na web aprendi apenas a buscar o que desejo e escrever de uma forma que fique bem simples para eu entender posteriormente. Dito isso, se o conteúdo aqui te ajudar, fique a vontade para usar.\n  </p>\n\n  <p>\n    Outro objetivo secundário do blog é para que possa continuar exercitando algo que sempre gostei de fazer que é escrever de forma descompromissada. Aprendi muito sobre escrita no tempo em que trabalhei no <a href=\"https://diolinux.com.br/autor/alesonmedeiros\" target=\"_blank\">Diolinux</a>, embora tenha sido pouco tempo. Mas como ando bem enferrujado na arte da escrita, ignore alguns erros que eu venha a cometer.🤣\n  </p>\n\n  <p>\n    Fiquem a vontade para sugerir conteúdos, tecnologias coisas legais para testar ou mesmo correções de tutoriais que venha a fazer aqui, afinal eu aprendo no modo eXtreme Go Horse e talvez exista uma boa prática ou até um forma bem mais simples de se chegar no mesmo resultado que eu não conheça ainda.\n  </p>\n\n  <p>\n    Enfim, no momento é só, mas espero estar de volta com novos posts logo que possível.\n  </p>",
+            "author": {
+                "name": "Áleson Medeiros"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-10-03T00:56:29-03:00",
+            "date_modified": "2023-10-03T01:31:46-03:00"
+        }
+    ]
+}
