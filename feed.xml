@@ -3,7 +3,7 @@
     <title>Blog do Áleson</title>
     <link href="https://alesonmedeiros.com.br/feed.xml" rel="self" />
     <link href="https://alesonmedeiros.com.br" />
-    <updated>2023-10-05T02:53:53-03:00</updated>
+    <updated>2023-11-01T14:24:22-03:00</updated>
     <author>
         <name>Áleson Medeiros</name>
     </author>
@@ -16,18 +16,18 @@
         </author>
         <link href="https://alesonmedeiros.com.br/ola-mundo/"/>
         <id>https://alesonmedeiros.com.br/ola-mundo/</id>
-        <media:content url="https://alesonmedeiros.com.br/media/posts/1/_25c51a0c-2ba6-49db-8385-d8f3438818d7.jpg" medium="image" />
+        <media:content url="https://alesonmedeiros.com.br/media/posts/1/_1a94936f-317d-48e5-9342-8097d221f6c0.jpeg" medium="image" />
 
-        <updated>2023-10-05T02:53:53-03:00</updated>
+        <updated>2023-11-01T14:24:22-03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://alesonmedeiros.com.br/media/posts/1/_25c51a0c-2ba6-49db-8385-d8f3438818d7.jpg" alt="Pinguim sentado em frente ao computador. Imagem Gerada por IA" />
+                        <img src="https://alesonmedeiros.com.br/media/posts/1/_1a94936f-317d-48e5-9342-8097d221f6c0.jpeg" alt="Pinguim sentado em frente ao computador. Imagem Gerada por IA" />
                     Espero que esse seja o primeiro de muitos posts desse blog, embora não seja a primeira vez que começo um projeto do tipo e simplesmente acabo parando no meio do caminho por falta de tempo, interesse ou qualquer outra razão. Apenas a título de curiosidade&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://alesonmedeiros.com.br/media/posts/1/_25c51a0c-2ba6-49db-8385-d8f3438818d7.jpg" class="type:primaryImage" alt="Pinguim sentado em frente ao computador. Imagem Gerada por IA" /></p>
+                    <p><img src="https://alesonmedeiros.com.br/media/posts/1/_1a94936f-317d-48e5-9342-8097d221f6c0.jpeg" class="type:primaryImage" alt="Pinguim sentado em frente ao computador. Imagem Gerada por IA" /></p>
                 
   <p>
     Espero que esse seja o primeiro de muitos posts desse blog, embora não seja a primeira vez que começo um projeto do tipo e simplesmente acabo parando no meio do caminho por falta de tempo, interesse ou qualquer outra razão. Apenas a título de curiosidade só esse repositório do Github já foi excluído e criado algumas vezes, então dessa vez vai!&nbsp;😂
