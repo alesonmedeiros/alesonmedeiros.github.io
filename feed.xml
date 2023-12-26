@@ -3,12 +3,110 @@
     <title>Blog do Áleson</title>
     <link href="https://alesonmedeiros.com.br/feed.xml" rel="self" />
     <link href="https://alesonmedeiros.com.br" />
-    <updated>2023-11-01T14:24:22-03:00</updated>
+    <updated>2023-12-26T15:36:45-03:00</updated>
     <author>
         <name>Áleson Medeiros</name>
     </author>
     <id>https://alesonmedeiros.com.br</id>
 
+    <entry>
+        <title>Configurando o Oh My Posh no Windows 11</title>
+        <author>
+            <name>Áleson Medeiros</name>
+        </author>
+        <link href="https://alesonmedeiros.com.br/configurando-o-oh-my-posh-no-windows-11/"/>
+        <id>https://alesonmedeiros.com.br/configurando-o-oh-my-posh-no-windows-11/</id>
+        <media:content url="https://alesonmedeiros.com.br/media/posts/3/Screenshot_36.png" medium="image" />
+
+        <updated>2023-12-26T15:36:45-03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://alesonmedeiros.com.br/media/posts/3/Screenshot_36.png" alt="" />
+                    O Oh My Posh é uma ferramenta poderosa para personalizar e melhorar a experiência do PowerShell no Windows 11. Neste tutorial, vamos orientar passo a passo como instalar e configurar o Oh My Posh para transformar o seu prompt do PowerShell em algo mais dinâmico&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://alesonmedeiros.com.br/media/posts/3/Screenshot_36.png" class="type:primaryImage" alt="" /></p>
+                <p>O Oh My Posh é uma ferramenta poderosa para personalizar e melhorar a experiência do PowerShell no Windows 11. Neste tutorial, vamos orientar passo a passo como instalar e configurar o Oh My Posh para transformar o seu prompt do PowerShell em algo mais dinâmico e estilizado.</p>
+<h2>1. Instalação do PowerShell</h2>
+<p>Para começar, certifique-se de que o PowerShell está instalado em seu sistema. No Windows 11, o PowerShell normalmente já vem pré-instalado. Caso não tenha, você pode instalá-lo através da Microsoft Store ou pelo pacote de instalação disponível no site oficial da Microsoft.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="4">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_1-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_1-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_2-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_2-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_3-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_3-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_4-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_4-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<h2>2. Instalação do Oh My Posh via winget</h2>
+<p>O Oh My Posh pode ser instalado usando o winget, o novo gerenciador de pacotes do Windows. Execute o seguinte comando no PowerShell:</p>
+<p><code>winget install JanDeDobbeleer.OhMyPosh -s winget</code></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="3">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_9-3.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_9-3-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_8-3.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_8-3-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<h2>3. Configuração das fontes do Oh My Posh</h2>
+<p>Para configurar as fontes do Oh My Posh, utilize o seguinte comando:</p>
+<p><code>oh-my-posh font install</code></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="8">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_10-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_10-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_11-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_11-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_12-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_12-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_17-3.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_17-3-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_18-3.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_18-3-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<h2>4. Configurando o Prompt do Oh My Posh</h2>
+<p>Crie um novo perfil do PowerShell, se não existir, e inicialize o Oh My Posh nele:</p>
+<p><code>New-Item -Path $PROFILE -Type File -Force</code><br><code>oh-my-posh init pwsh | Invoke-Expression</code></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="8">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_13.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_13-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_14.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_14-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_15.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_15-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_19.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_19-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<h2>5. Escolher o Tema do seu Oh My Posh</h2>
+<p>Você pode escolher um tema para o Oh My Posh de acordo com suas preferências:</p>
+<p><code>Get-PoshThemes</code><br><code>oh-my-posh init pwsh --config 'C:\Users\SeuUsuario\AppData\Local\Programs\oh-my-posh\themes\negligible.omp.json' | Invoke-Expression</code></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="8">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_20.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_20-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_21.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_21-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_22.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_22-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_23.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_23-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_24.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_24-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<p>Lembre-se de substituir "SeuUsuario" pelo seu nome de usuário no Windows.</p>
+<h2>6. Instalar e configurar o Terminal-Icons</h2>
+<p>Adicione e configure os ícones no terminal com os seguintes comandos:</p>
+<p><code>Install-Module -Name Terminal-Icons -Repository PSGallery</code><br><code>Import-Module -Name Terminal-Icons</code></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="8">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_25.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_25-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_26.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_26-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_27.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_27-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_28.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_28-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_29.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_29-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<h2>7. Instalar e configurar o Git-Posh</h2>
+<p>Para integrar o Git ao seu prompt, instale e configure o Git-Posh:</p>
+<p><code>PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force</code><br><code>Import-Module posh-git</code></p>
+<h2>8. Instalar e Configurar o PSReadLine</h2>
+<p>Aprimore sua experiência no PowerShell instalando e configurando o PSReadLine:</p>
+<p><code>Install-Module PSReadLine -AllowPrerelease -Force</code><br><code>Import-Module PSReadLine</code><br><code>Set-PSReadLineOption -PredictionSource History</code><br><code>Set-PSReadLineOption -PredictionViewStyle ListView</code><br><code>Set-PSReadLineOption -EditMode Windows</code></p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="8">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_30.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_30-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_33.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_33-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_32.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_32-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<h2>Conclusão</h2>
+<p>Ao seguir estes passos, você configurou com sucesso o Oh My Posh no seu PowerShell do Windows 11. Personalize-o ainda mais explorando diferentes temas, fontes e configurações disponíveis para criar um ambiente que se adeque ao seu estilo de trabalho e preferências.</p>
+<p>Lembre-se sempre de consultar a documentação oficial do Oh My Posh para obter informações adicionais e explorar outras opções de configuração.</p>
+<p>Agora você está pronto para aproveitar um prompt mais intuitivo e estilizado no seu PowerShell!</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="3">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_35-2.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_35-2-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_36.png" data-size="1919x1079"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/3/gallery/Screenshot_36-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Olá, Mundo! Estamos de volta(de novo)</title>
         <author>
