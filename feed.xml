@@ -3,12 +3,84 @@
     <title>Blog do Áleson</title>
     <link href="https://alesonmedeiros.com.br/feed.xml" rel="self" />
     <link href="https://alesonmedeiros.com.br" />
-    <updated>2023-12-26T15:44:21-03:00</updated>
+    <updated>2024-01-01T13:51:26-03:00</updated>
     <author>
         <name>Áleson Medeiros</name>
     </author>
     <id>https://alesonmedeiros.com.br</id>
 
+    <entry>
+        <title>Tutorial Passo a Passo para Formatar e Reinstalar o ChromeOS em um Chromebook</title>
+        <author>
+            <name>Áleson Medeiros</name>
+        </author>
+        <link href="https://alesonmedeiros.com.br/tutorial-passo-a-passo-para-formatar-e-reinstalar-o-chromeos-em-um-chromebook/"/>
+        <id>https://alesonmedeiros.com.br/tutorial-passo-a-passo-para-formatar-e-reinstalar-o-chromeos-em-um-chromebook/</id>
+
+        <updated>2024-01-01T13:51:26-03:00</updated>
+            <summary>
+                <![CDATA[
+                    Os Chromebooks oferecem uma experiência única, mas às vezes você pode querer voltar ao sistema operacional original, o ChromeOS, após instalar outro sistema, como o Windows, por exemplo. Este tutorial passo a passo irá guiá-lo através do processo de formatação do Chromebook, remoção do Windows,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Os Chromebooks oferecem uma experiência única, mas às vezes você pode querer voltar ao sistema operacional original, o ChromeOS, após instalar outro sistema, como o Windows, por exemplo. Este tutorial passo a passo irá guiá-lo através do processo de formatação do Chromebook, remoção do Windows, e reinstalação do ChromeOS para restaurar o dispositivo à sua configuração inicial.</p>
+<p><strong>Passo 1: Preparação e Instalação do Linux</strong></p>
+<ol>
+<li>
+<p><strong>Preparação do Chromebook</strong>: Certifique-se de fazer backup de todos os dados importantes, pois o processo de formatação resultará na perda de todos os arquivos armazenados no dispositivo.</p>
+</li>
+<li>
+<p><strong>Instalação do Linux Mint</strong>: Utilizaremos o Linux Mint neste tutorial. Com o coreboot permitindo a formatação do Chromebook como um PC comum, você pode instalar uma distribuição Linux como o Linux Mint. Siga as instruções padrão de instalação do Linux Mint para o seu Chromebook.</p>
+</li>
+</ol>
+<p><strong>Passo 2: Execução dos Scripts e Reinstalação do Firmware</strong></p>
+<ol>
+<li>
+<p><strong>Execução do Script no Terminal do Linux Mint</strong>: Após instalar o Linux Mint, abra o terminal e execute o seguinte comando como sudo:</p>
+<p> </p>
+<div class="bg-black rounded-md">
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash"><span class="hljs-built_in">cd</span>; curl -LO mrchromebox.tech/firmware-util.sh &amp;&amp; sudo bash firmware-util.sh
+</code></div>
+</div>
+<p>Este script ajudará na reinstalação do firmware do Chromebook necessário para restaurar o dispositivo ao seu estado original.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="8">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-08-55.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-08-55-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-09-08.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-09-08-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-09-42.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-09-42-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-09-58.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-09-58-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-11-20.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-11-20-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+</li>
+<li>
+<p><strong>Reinstalação do Firmware do Chromebook</strong>: O script de firmware reinstalará o firmware original do Chromebook, que foi gerado no momento em que o coreboot foi instalado para permitir a instalação do Windows.</p>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Adicione imagens" data-columns="8">
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-11-34.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-11-34-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-11-55.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-11-55-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-12-27.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-12-27-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-14-13.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-14-13-thumbnail.png" alt="" width="720" height="405"></a></figure>
+<figure class="gallery__item"><a href="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-14-27.png" data-size="1920x1080"><img loading="lazy" src="https://alesonmedeiros.com.br/media/posts/5//gallery/Captura-de-tela-de-2023-12-27-10-14-27-thumbnail.png" alt="" width="720" height="405"></a></figure>
+</div></div>
+</li>
+</ol>
+<p><strong>Passo 3: Reinstalação do ChromeOS</strong></p>
+<ol>
+<li>
+<p><strong>Gerando um Disco de Recuperação</strong>: Utilize um PC com Windows para gerar um disco de recuperação do Chromebook. Este disco é essencial para reinstalar o ChromeOS no dispositivo.</p>
+</li>
+<li>
+<p><strong>Modo Normal do Chromebook</strong>: Após a reinstalação do firmware, entre no modo normal do Chromebook.</p>
+</li>
+<li>
+<p><strong>Reinstalação com o Disco de Recuperação</strong>: Insira o disco de recuperação no Chromebook e siga as instruções para reinstalar o ChromeOS. Este processo irá restaurar o sistema operacional original.</p>
+</li>
+</ol>
+<p>Seguindo estes passos, você foi capaz de formatar o Chromebook, remover o Windows e reinstalar o ChromeOS, restaurando-o ao seu estado original. Lembre-se sempre de fazer backup dos seus dados antes de realizar qualquer formatação para evitar a perda de informações importantes.</p>
+<p>Esperamos que este guia tenha sido útil e que agora você possa desfrutar novamente da experiência do ChromeOS no seu dispositivo.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Como Formatar um Chromebook HP e Instalar o Windows: Tutorial Passo a Passo</title>
         <author>
